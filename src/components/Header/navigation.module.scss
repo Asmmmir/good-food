@@ -7,14 +7,14 @@
     }
 }
 
-
-
 .nav {
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding: 2rem;
+
 
 
     &__logo {
@@ -31,6 +31,13 @@
         &__list {
             display: flex;
             column-gap: 62px;
+
+            &_icon:hover {
+                svg {
+                    fill: #FF9401;
+                    cursor: pointer;
+                }
+            }
         }
     }
 

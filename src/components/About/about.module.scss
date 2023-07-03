@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
+.about {
+    background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    min-height: 686px;
+    margin-top: 128px;
+    
+
+    &__container {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            
+        }
+    }
+}
+
+.title {
+    width: 40%;
+    h1 {
+        @font-face {
+            font-family: Gilroy;
+            src: url('../../../public/fonts/Gilroy-ExtraBold.otf');
+        }
+        color: #2E2E2E;
+        font-size: 52px;
+        font-family: Gilroy;
+        font-weight: 700;
+        line-height: 60px;
+    }
+    &__about {
+        color: #FF9401;
+        font-size: 24px;
+        font-family: Gilroy;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 24px;
+    }
+    &__text {
+        color: #3F3232;
+        font-size: 20px;
+        font-family: 'Playfair Display';
+        font-weight: 450;
+        line-height: 160%;
+        margin-top: 21px;
+        margin-bottom: 48px;
+    }
+
+    button {
+        border-radius: 31px;
+        background: #FF9401;
+        box-shadow: 0px 20px 40px 0px rgba(255, 148, 1, 0.15);
+        color: #fff;
+        padding: 1rem 2rem;
+        font-family: 'Playfair Display';
+    }
+}
+
+.image {
+    position: relative;
+
+    &__ketchup {
+position: absolute;
+left: -200px;
+    }
+}
