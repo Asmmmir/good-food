@@ -8,16 +8,11 @@ export const Testimonial = () => {
           <div className={styles.image}>
             <img
               className={styles.image__phone}
-              src="./img/testimonial/food.png"
+              src="./img/testimonial/testi-food.png"
               alt=""
-              width="100%"
+              width='100%'
             />
-            <img
-              className={styles.image__ketchup}
-              src="./img/testimonial/ketchup.png"
-              alt=""
-              width="100%"
-            />
+  
           </div>
           <div className={styles.title}>
             <p className={styles.title__about}>Testimonial</p>

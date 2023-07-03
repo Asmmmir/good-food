@@ -3,7 +3,7 @@ import styles from "./recipe.module.scss";
 export const Recipe = ({ title, rating, price, img }) => {
   return (
     <div className={styles.recipe}>
-      <img src={img} alt="" width="100%" />
+      <img src={img} alt="" />
 
       <div className={styles.recipe__title}>
         <p>{title}</p>

@@ -15,7 +15,6 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            flex-wrap: wrap;
 
             
         }
@@ -23,7 +22,6 @@
 }
 
 .title {
-    width: 40%;
     h1 {
         @font-face {
             font-family: Gilroy;
@@ -34,6 +32,7 @@
         font-family: Gilroy;
         font-weight: 700;
         line-height: 60px;
+        width: 70%;
     }
     &__about {
         color: #FF9401;
@@ -42,6 +41,7 @@
         font-weight: 600;
         line-height: 30px;
         margin-bottom: 24px;
+
     }
     &__text {
         color: #3F3232;
@@ -51,6 +51,7 @@
         line-height: 160%;
         margin-top: 21px;
         margin-bottom: 48px;
+        width: 70%;
     }
 
     button {
@@ -63,11 +64,9 @@
     }
 }
 
-.image {
-    position: relative;
 
-    &__ketchup {
-position: absolute;
-left: -200px;
-    }
+.image {
+
+width: 100%;
+
 }
