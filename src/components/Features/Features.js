@@ -10,7 +10,7 @@ export const Features = () => {
         </div>
         <div className={styles.features__container__items}>
           <div className={styles.item}>
-            <img src="./good-food/img/home-delivery.svg" alt="" />
+            <img src="../good-food/img/home-delivery.svg" alt="" />
             <h1>Quality Food</h1>
             <p>
               Keep healthy food readily available. When you get hungry, you're
@@ -18,7 +18,7 @@ export const Features = () => {
             </p>
           </div>
           <div className={styles.item}>
-            <img src="./good-food/img/super-taste.svg" alt="" />
+            <img src="../good-food/img/super-taste.svg" alt="" />
             <h1>Super Taste</h1>
             <p>
               Keep healthy food readily available. When you get hungry, you're
@@ -26,7 +26,7 @@ export const Features = () => {
             </p>
           </div>
           <div className={styles.item}>
-            <img src="./good-food/img/delivery-truck.svg" alt="" />
+            <img src="../good-food/img/delivery-truck.svg" alt="" />
             <h1>Fast Delivery</h1>
             <p>
               Keep healthy food readily available. When you get hungry, you're

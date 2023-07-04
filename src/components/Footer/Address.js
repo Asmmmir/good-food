@@ -5,7 +5,7 @@ export const Address = () => {
   return (
     <ul className={styles.address}>
       <li className={styles.address__logo}>
-        <img src="./img/logo.svg" alt="logo" />
+        <img src="../good-food/img/logo.svg" alt="logo" />
         <p>f.palace</p>
       </li>
       <li>

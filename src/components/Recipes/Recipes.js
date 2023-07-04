@@ -4,19 +4,19 @@ import styles from "./recipes.module.scss";
 export const Recipes = () => {
   const recipes = [
     {
-      img: "./good-food/img/recipes/item1.png",
+      img: "../good-food/img/recipes/item1.png",
       title: "Flame-boiled dish",
       rating: 8.5,
       price: 19.99,
     },
     {
-      img: "./good-food/img/recipes/item2.png",
+      img: "../good-food/img/recipes/item2.png",
       title: "Peach Melba dish",
       rating: 9.5,
       price: 20.99,
     },
     {
-      img: "./good-food/img/recipes/item3.png",
+      img: "../good-food/img/recipes/item3.png",
       title: "Delmonico Steak dish",
       rating: 8.0,
       price: 18.99,
