@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header/Header";
 import { Main } from "./components/Main/Main";
 import { Recipes } from "./components/Recipes/Recipes";
@@ -12,6 +13,7 @@ const App = () => {
       <Recipes />
       <TakeAway />
       <Testimonial />
+      <Footer />
     </>
   );
 };

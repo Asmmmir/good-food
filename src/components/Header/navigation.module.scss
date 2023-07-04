@@ -31,7 +31,11 @@
         &__list {
             display: flex;
             column-gap: 62px;
-
+                &_icon {
+                    svg {
+                        max-width: 26px;
+                    }
+                }
             &_icon:hover {
                 svg {
                     fill: #FF9401;
@@ -41,6 +45,9 @@
         }
     }
 
-
+@media (max-width:465px) {
+    justify-content: center;
+    flex-direction: column;
+}
 
 }
