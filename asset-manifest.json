@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/good-food/static/css/main.aa896a87.css",
-    "main.js": "/good-food/static/js/main.5c67c0fe.js",
+    "main.js": "/good-food/static/js/main.a3885c23.js",
     "static/media/Gilroy-ExtraBold.otf": "/good-food/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
     "static/media/Gilroy-Light.otf": "/good-food/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
     "index.html": "/good-food/index.html",
     "main.aa896a87.css.map": "/good-food/static/css/main.aa896a87.css.map",
-    "main.5c67c0fe.js.map": "/good-food/static/js/main.5c67c0fe.js.map"
+    "main.a3885c23.js.map": "/good-food/static/js/main.a3885c23.js.map"
   },
   "entrypoints": [
     "static/css/main.aa896a87.css",
-    "static/js/main.5c67c0fe.js"
+    "static/js/main.a3885c23.js"
   ]
 }
