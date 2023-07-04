@@ -8,13 +8,13 @@ export const TakeAway = () => {
           <div className={styles.image}>
             <img
               className={styles.image__phone}
-              src="./img/takeaway/phone.png"
+              src="./good-food/img/takeaway/phone.png"
               alt=""
               width="100%"
             />
             <img
               className={styles.image__food}
-              src="./img/takeaway/food.png"
+              src="./good-food/img/takeaway/food.png"
               alt=""
             />
           </div>
@@ -27,8 +27,8 @@ export const TakeAway = () => {
               the cupboard.
             </p>
             <div className={styles.title__buttons}>
-              <img src="./img/TakeAway/appstore.png" alt="" />
-              <img src="./img/TakeAway/googleplay.png" alt="" />
+              <img src="./good-food/img/TakeAway/appstore.png" alt="" />
+              <img src="./good-food/img/TakeAway/googleplay.png" alt="" />
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ export const Testimonial = () => {
           <div className={styles.image}>
             <img
               className={styles.image__phone}
-              src="./img/testimonial/testi-food.png"
+              src="./good-food/img/testimonial/testi-food.png"
               alt=""
               width='100%'
             />

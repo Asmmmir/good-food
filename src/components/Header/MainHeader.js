@@ -29,9 +29,9 @@ export const MainHeader = () => {
           </div>
 
           <div className={styles.mainheader__image}>
-            <img src="./img/header-food.jpg" alt="" width="100%" />
-            <img className={styles.mainheader__image_first} src="./img/food1.png" alt="" width='50%' />
-            <img className={styles.mainheader__image_third}  src="./img/food3.png" alt="" width='50%' /> 
+            <img src="./good-food/img/header-food.jpg" alt="" width="100%" />
+            <img className={styles.mainheader__image_first} src="./good-food/img/food1.png" alt="" width='50%' />
+            <img className={styles.mainheader__image_third}  src="./good-food/img/food3.png" alt="" width='50%' /> 
           </div>
         </div>
       </div>

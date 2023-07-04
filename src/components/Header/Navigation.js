@@ -10,7 +10,7 @@ export const Navigation = () => {
       <div className={styles.navigation__container}>
         <div className={styles.nav}>
           <div className={styles.nav__logo}>
-            <img src="./img/logo.svg" alt="logo" />
+            <img src="./good-food/img/logo.svg" alt="logo" />
             <p>f.palace</p>
           </div>
 

@@ -9,7 +9,7 @@ export const About = () => {
           <div className={styles.image}>
             <img
               className={styles.image__food}
-              src="./img/about-image.png"
+              src="./good-food/img/about-image.png"
               alt=""
               width="100%"
             />
